@@ -10,13 +10,13 @@ const article = ({ article }) => {
   // const { id } = router.query;
 
   return (
-    <>
+    <div style={{ padding: "10px 100px" }}>
       <Meta title={article.title} />
       <h1>{article.title}</h1>
       <p>{article.body}</p>
       <br />
       <Link href="/">Go Back</Link>
-    </>
+    </div>
   );
 };
 
